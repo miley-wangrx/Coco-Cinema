@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".allmovie">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/movie2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageButton
+            android:id="@+id/center_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person"
+            android:scaleType="centerCrop"
+            android:background="@null"/>
+
+        <LinearLayout
+            android:id="@+id/search_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#cfffffff"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp">
+
+            <Spinner
+                android:id="@+id/search_option"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="-7dp"
+                android:paddingRight="-5dp"
+                android:spinnerMode="dropdown"/>
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textNoSuggestions"
+                android:hint=" Name of Movie"
+                android:textColor="#000000"
+                android:textColorHint="#818181"/>
+
+            <TextView
+                android:id="@+id/search_date"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textSize="18dp"
+                android:hint=" Pick Date"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:textColorHint="#818181"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Search"
+            android:paddingLeft="-2dp"
+            android:paddingRight="-2dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/shape_red_white_border"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:id="@+id/root_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_trans_white"
+            >
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/top_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/top"
+        android:gravity="center"
+        android:text="TOP"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99"
+        app:layout_constraintHorizontal_bias="0.99"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

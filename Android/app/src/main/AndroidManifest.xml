@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.main2activity">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="movie"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".beforePay" />
+        <activity android:name=".openVIP" />
+        <activity android:name=".editCard" />
+        <activity android:name=".card" />
+        <activity android:name=".email" />
+        <activity android:name=".editEmail" />
+        <activity android:name=".verification" />
+        <activity android:name=".allmovie"></activity>
+        <activity android:name=".welcome" />
+        <activity android:name=".login" />
+        <activity android:name=".register">
+
+        </activity>
+        <activity android:name=".selectSeat" />
+        <activity android:name=".movieDetail" />
+        <activity android:name=".afterPay" />
+        <activity android:name=".userCenter" />
+        <activity android:name=".record" ></activity>
+        <activity android:name=".tickets" />
+    </application>
+
+</manifest>
