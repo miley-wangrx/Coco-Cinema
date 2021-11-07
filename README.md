@@ -10,7 +10,7 @@
 - The project includes both Android and Web apps for cinema seat reservation, with functionalities raging from movie search & filtering, order & salesanalysys to data visualization
 
 - Programming language: Java, Python
-- Framework and tool: Flask, Android Studio
+- Framework and tool: Flask, Android Studio, Pycharm
 
 ## Features
 
