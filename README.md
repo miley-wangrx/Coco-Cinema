@@ -41,8 +41,12 @@
     
  - **Cinema Conductor Side (Web app)**
     - View weekly takings, overall and per-movie
+   
     - Plot weekly takings graphically
+    
     - Compare movies by number of tickets sold in a given time period
+    
     - Show comparisons graphically
+    
     - Provide a responsive, mobile-friendly user interface
  
