@@ -11,6 +11,7 @@
 - Framework and tool: Flask, Android Studio
 
 ## Features
+
 - **Customer Side (Android app)**
     - Support user accounts and user login
         - Good securityn for user accounts, required a strong password
@@ -35,6 +36,7 @@
         - QR code on ticket for validation
     - Store ticket, and display it on demand
     - Address issues of accessibility, provide different color & font choices
+    
  - **Cinema Conductor Side (Web app)**
     - View weekly takings, overall and per-movie
     - Plot weekly takings graphically
