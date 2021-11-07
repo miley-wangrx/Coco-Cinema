@@ -16,7 +16,9 @@
     - Support user accounts and user login
         - Good securityn for user accounts, required a strong password
         - Required phone verification when changing passsword and first time log-in
-    - View movie details (i.e.: blurb, certificate, director, lead actor/actress, etc.)
+        
+    - View movie details (i.e.: blurb, certificate, director, lead actor/actress, etc.
+    
     - Display promotional images associated with a movie
     - View screenings of a movie (date, time, cinema screen)
     - Search for a movie/screening by keyword or date
