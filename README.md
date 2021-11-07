@@ -2,11 +2,13 @@
 
 ## Demo Video:  
 - A demo video can be found at https://www.youtube.com/watch?v=PxzKoiAHjDQ 
+
 - In the video, the Android application was installed at Huawei P30 Pro (screen size: 6.47", resolution: 1080*2340px)
 - Note that because the cloud server got expired at June 2021, the web application cannot be accessed online at this time.
 
 ## Brief
-- The project includes both Android and Web apps for cinema seat reservation, with functionalities raging from movie search & filtering, order & salesanalysys to data visualization.
+- The project includes both Android and Web apps for cinema seat reservation, with functionalities raging from movie search & filtering, order & salesanalysys to data visualization
+
 - Programming language: Java, Python
 - Framework and tool: Flask, Android Studio
 
