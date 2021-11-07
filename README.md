@@ -36,8 +36,7 @@
         - Bind/unbind a card, and the payment page
         - Store user's card detailis for quicker checkout
         - Worker of the cinema can mark a ticket as paid on the Web app, if paid by cash
-    - Send ticket via email
-        - QR code on ticket for validation
+    - Send ticket via email, including QR code on ticket for validation
     - Store ticket, and display it on demand
     - Address issues of accessibility, provide different color & font choices
     
