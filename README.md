@@ -41,6 +41,7 @@
     - Address issues of accessibility, provide different color & font choices
     
  - **Cinema Conductor Side (Web app)**
+ 
     - View weekly takings, overall and per-movie
    
     - Plot weekly takings graphically
