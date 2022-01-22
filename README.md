@@ -1,6 +1,6 @@
 # Coco Cinema  
 
-## Demo Video:  
+## Demo Video and Gallery:  
 * A demo video can be found at https://www.youtube.com/watch?v=PxzKoiAHjDQ 
 * In the video, the Android application was installed at Huawei P30 Pro (screen size: 6.47", resolution: 1080*2340px)
 * Note that because the cloud server got expired at June 2021, the web application cannot be accessed online at this time.
@@ -12,14 +12,19 @@ This is a online seat reservation system used for customer's purchasing and cine
 ### Database Design
 ![database](https://user-images.githubusercontent.com/88390268/150656293-30464d56-df9a-49a9-ab43-fe59f72f05a5.png)
 
-
 There're five tables in the database:
 * Schedule :info of movie schedules, including movie id, hall id, date, start and end time, price, etc.
 * Hall: info of different halls of the cinema
 * User: user info, including unique id, password, tel, email, card number, vip identification, etc.
 * OrderDetail: contains user id, schedule, hall and seat, method of payment, etc.
 * Movie: contains the id, name, blurb, director, actors, picture and poster of a movie.
-## Features
+## Features 
+### Cinema Conductor Side (Web app)
+   * View weekly takings, overall and per-movie
+   * Plot weekly takings graphically
+   * Compare movies by number of tickets sold in a given time period
+   * Show comparisons graphically
+   * Provide a responsive, mobile-friendly user interface
 ### Customer Side (Android app)
   * Support user accounts and user login
         - Good securityn for user accounts, required a strong password
@@ -30,9 +35,10 @@ There're five tables in the database:
     - View screenings of a movie (date, time, cinema screen)
     - Search for a movie/screening by keyword or date
     - Buy ticket for a screening, the following options are provided:
-        - adult
-        - child (age <=16) available if appropriate to certificate
-        - senior (age >=65) are available for a 20%. discount
+        
+        * adult
+        * child (age <=16) available if appropriate to certificate
+        * senior (age >=65) are available for a 20%. discount
   * See avaliable seats, and book a specific seat, for a screening
         - A visual representation of seating layout was provided
         - Support usage by multiple clients simultaneously(e.g.: selecting the same seat at one time)
@@ -44,14 +50,11 @@ There're five tables in the database:
   * Send ticket via email, including QR code on ticket for validation
   * Store ticket, and display it on demand
   * Address issues of accessibility, provide different color & font choices
-  ![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
+  * Here's a typical walkthrough:
+ 
+    ![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
   
- ### Cinema Conductor Side (Web app)
-   * View weekly takings, overall and per-movie
-   * Plot weekly takings graphically
-   * Compare movies by number of tickets sold in a given time period
-   * Show comparisons graphically
-   * Provide a responsive, mobile-friendly user interface
+### TBD
  
 ![Register](https://user-images.githubusercontent.com/88390268/150656347-ae2f9698-2cae-4b28-9e22-fa66a54684b3.png)
 
