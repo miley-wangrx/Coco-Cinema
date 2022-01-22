@@ -12,8 +12,19 @@ This is a online seat reservation system used for customer's purchasing and cine
 
 ### Database Design
 ![database](https://user-images.githubusercontent.com/88390268/150656293-30464d56-df9a-49a9-ab43-fe59f72f05a5.png)
+There're five tables in the database:
+* Schedule :info of movie schedules, including movie id, hall id, date, start and end time, price, etc.
+* Hall: info of different halls of the cinema
+* User: user info, including unique id, password, tel, email, card number, vip identification, etc.
+* OrderDetail: contains user id, schedule, hall and seat, method of payment, etc.
+* Movie: contains the id, name, blurb, director, actors, picture and poster of a movie.
 ## Features
+![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
+![functionalities](https://user-images.githubusercontent.com/88390268/150656318-1d69d43e-b10d-4204-86bc-0ef5094e284b.png)
 
+![Register](https://user-images.githubusercontent.com/88390268/150656347-ae2f9698-2cae-4b28-9e22-fa66a54684b3.png)
+
+![Appearance](https://user-images.githubusercontent.com/88390268/150656403-578e3c4b-e92d-4425-8d9f-214533b71526.png)
 - **Customer Side (Android app)**
     - Support user accounts and user login
         - Good securityn for user accounts, required a strong password
