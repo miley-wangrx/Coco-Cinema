@@ -1,6 +1,6 @@
 # Coco Cinema  
 
-## Demo Video and Gallery:  
+## Demo Video:  
 * A demo video can be found at https://www.youtube.com/watch?v=PxzKoiAHjDQ 
 * In the video, the Android application was installed at Huawei P30 Pro (screen size: 6.47", resolution: 1080*2340px)
 * Note that because the cloud server got expired at June 2021, the web application cannot be accessed online at this time.
@@ -54,7 +54,7 @@ There're five tables in the database:
  
     ![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
   
-### TBD
+### User Interface Design
  
 ![Register](https://user-images.githubusercontent.com/88390268/150656347-ae2f9698-2cae-4b28-9e22-fa66a54684b3.png)
 
