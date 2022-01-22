@@ -11,7 +11,7 @@ This is a online seat reservation system used for customer's purchasing and cine
 ### Functionalities
 
 ### Database Design
-
+![database](https://user-images.githubusercontent.com/88390268/150656293-30464d56-df9a-49a9-ab43-fe59f72f05a5.png)
 ## Features
 
 - **Customer Side (Android app)**
