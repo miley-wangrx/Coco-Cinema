@@ -6,11 +6,11 @@
 - In the video, the Android application was installed at Huawei P30 Pro (screen size: 6.47", resolution: 1080*2340px)
 - Note that because the cloud server got expired at June 2021, the web application cannot be accessed online at this time.
 
-## Brief
-- The project includes both Android and Web apps for cinema seat reservation, with functionalities raging from movie search & filtering, order & salesanalysys to data visualization
+## Overview
+This is a online seat reservation system used for customer's purchasing and cinema's management. In this project, two applications were developed: one is an Android app used by customers, the other is a web app for administrators of the cinema to manage orders.
+### Functionalities
 
-- Programming language: Java, Python
-- Framework and tool: Flask, Android Studio, Pycharm
+### Database Design
 
 ## Features
 
