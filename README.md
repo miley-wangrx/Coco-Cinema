@@ -20,11 +20,11 @@ There're five tables in the database:
 * Movie: contains the id, name, blurb, director, actors, picture and poster of a movie.
 ## Features 
 ### Cinema Conductor Side (Web app)
-   * View weekly takings, overall and per-movie
-   * Plot weekly takings graphically
-   * Compare movies by number of tickets sold in a given time period
-   * Show comparisons graphically
-   * Provide a responsive, mobile-friendly user interface
+  * View weekly takings, overall and per-movie
+  * Plot weekly takings graphically
+  * Compare movies by number of tickets sold in a given time period
+  * Show comparisons graphically
+  * Provide a responsive, mobile-friendly user interface
 ### Customer Side (Android app)
   * Support user accounts and user login
         - Good securityn for user accounts, required a strong password
