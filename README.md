@@ -1,7 +1,7 @@
 # Coco Cinema  
 
 ## Demo Video:  
-* A demo video can be found at https://www.youtube.com/watch?v=PxzKoiAHjDQ 
+* A demo video can be found [here](https://www.youtube.com/watch?v=PxzKoiAHjDQ) 
 * In the video, the Android application was installed at Huawei P30 Pro (screen size: 6.47", resolution: 1080*2340px)
 * Note that because the cloud server got expired at June 2021, the web application cannot be accessed online at this time.
 
