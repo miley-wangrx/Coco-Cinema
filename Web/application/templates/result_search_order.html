@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}all movies{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+{% endblock %}
+
+{% block main %}
+    {% import "_macros.html" as macros %}
+    <div class="col-md-1"></div>
+    <div class="all-blogs col-md-10" style="align-content: center; padding-top:20px; font-size: 16px">
+    <table class="table table-hover">
+        <h2 style="
+         color: #0066CC;
+         height: auto;
+         font-size: 40px;
+         font-style: oblique;
+         font-weight: 300;
+         text-align: center;
+         text-shadow:0.05em 0.05em #66FFFF;
+         font-family:'Times New Roman',fantasy;
+         "
+    >
+        Searching Result </h2>
+        <tr style="font-family: 'Times New Roman',fantasy;">
+        <tr>
+            <th>Order ID</th>
+            <th>User Phone</th>
+            <th>Movie Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Hall</th>
+            <th>Seat</th>
+            <th>Price</th>
+            <th>Paid?</th>
+            <th>Paid Method</th>
+            <th>Operation</th>
+
+        </tr>
+        {% if order %}
+        <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ phone }}</td>
+            <td>{{ movie }}</td>
+            <td>{{ schedule.date }}</td>
+            <td>{{ schedule.start_time }}-{{ schedule.end_time }}</td>
+            <td>{{ hall }}</td>
+            <td>Row {{ order.seat_row }}, Seat {{ order.seat_column }}</td>
+            <td>{{ schedule.price }}</td>
+            {% if order.paid == 1 %}
+            <td>Yes</td>
+            <td>{{ order.pay_method }}</td>
+            <td>/</td>
+            {% else %}
+            <td>No</td>
+            <td>undetermined</td>
+            <td><a href="/pay_by_cash/{{ order.id }}"><button type="button" class="btn btn-primary">Pay</button></a></td>
+            {% endif %}
+        </tr>
+        {% endif %}
+    </table>
+
+
+    </div>
+
+    <div class="col-md-1 col-sm-1"></div>
+{% endblock %}

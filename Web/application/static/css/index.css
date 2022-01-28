@@ -1,0 +1,112 @@
+
+
+.logo{
+    width: 100px;
+}
+
+
+
+.index-banner{
+    border-radius: 10px;
+    height: 30%;
+    overflow: hidden;
+
+}
+
+/*需要把图片的高度和轮播的一致*/
+.index-banner img{
+    border-radius: 10px;
+    height: 30%;
+}
+
+.left-down{
+    padding-top: 10px;
+}
+
+ul.blog-list-group{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.blog-list-group li{
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.icon-group{
+    width: 38px;
+    height: 100%;
+    float: left;
+}
+
+.icon-group .icon{
+    width: 38px;
+    height: 38px;
+}
+
+.blog-group{
+
+    width: 100%;
+
+}
+
+.blog-content-text{
+    font-weight: normal;
+    font-size: small;
+    color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.blog-title-text  a{
+    /*color: #fff;*/
+    font-weight: 900;
+}
+
+.blog-info{
+    text-align: right;
+}
+
+.blog-info .blog-author-text{
+    margin-right:10px;
+}
+.blog-time-text{
+    float: right;
+
+}
+
+.recommend-title{
+    padding: 0 0 0 0;
+    font-size: larger;
+    font-weight: bolder;
+    height: 30px;
+    border-bottom: 1px solid #eee;
+}
+.recommend-blog-group{
+    height: 100px;
+}
+
+ul.recommend-blog-list-group{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.recommend-blog-list-group li{
+    overflow: hidden;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.recommend-blog-title-text{
+    /*color: #259;*/
+    font-weight: 900;
+}
+
+.contact-us{
+    margin-top: 10px;
+}
