@@ -1,0 +1,50 @@
+#html{
+	height:100%;
+}
+#body{  height:100%;
+		width:100%;
+        background: url("../images/admin_login.jpg") no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+#h2{
+	color:#00FFFF;
+	font-size:36px;
+	text-align:center;
+	transition:all 0.1s;
+	text-shadow:3px 3px 3px #9393FF;
+}
+#h3{
+	color:#00FFFF;
+	font-size:26px;
+	text-align:center;
+	transition:all 0.1s;
+	text-shadow:3px 3px 3px #9393FF;
+}
+#form{
+	text-align:center;
+	font-size:20px;
+}
+#x1{
+	border-radius:4px;
+	border:1px solid #ccc;
+	padding:7px 0px;
+	padding-bottom:5px;
+	margin-bottom:7px;
+}
+#pwd{
+	border-radius:4px;
+	border:1px solid #ccc;
+	padding:7px 0px;
+	padding-bottom:5px;
+	margin-bottom:7px;
+}
+#x2{
+	width:140px;
+	height:25px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	background-color:#66B3FF;
+	border-radius:5px;
+}

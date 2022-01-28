@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}in graphs{% endblock %}
+
+{% block head %}
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/admin_index.css') }}"/>
+{% endblock %}
+
+{% block main %}
+<br>
+<table class="table table-hover">
+        <h2 style="
+         color: #0066CC;
+         height: auto;
+         font-size: 40px;
+         font-style: oblique;
+         font-weight: 300;
+         text-align: center;
+         text-shadow:0.05em 0.05em #66FFFF;
+         font-family:'Times New Roman',fantasy;
+         ">
+            View amount in Graphs </h2></table>
+    <br>
+    <div class="row">
+
+<table class="table table-hover" >
+<!--select period-->
+<div style="width:65%;
+            align-content: center;
+            text-align: center;
+            margin: 0 auto;">
+    <form action="" method="post" id="location" style>
+        <label><span>Select the first day:</span><br>
+        <input type="date" name="begin_date"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><span>Select the last day:</span><br>
+        <input type="date" name="end_date"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><span></span><br>
+        <button type="submit" name="Search" class="btn btn-default">Search</button></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </form><br>
+</div>
+</table>
+</div>
+
+    <br>
+
+<div class="row">
+<!--the chart of ticket amounts-->
+<div class="col-md-2"></div>
+<div class="col-md-3" >
+    <div style="margin-right: 7%">
+        <table class="table table-striped"  style="background-color:#fff; border: #f9f9f9 1px">
+{#        <caption>Number of Tickets Sold</caption>#}
+        <thead>
+            <tr>
+                <th class="text-center">Movie Name</th>
+                <th class="text-center">Ticket Amount</th>
+            </tr>
+            </thead>
+        <tbody>
+            {% for info in all_info %}
+            <tr>
+                <td>{{ info[0] }}</td>
+                <td>{{ info[1] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+    </div>
+{#<div class="col-md-1"></div>#}
+<div class="col-md-5">
+    <div id="right" >
+        {% if show_picture %}
+            <img src="/static/{{ picture }}?random={{ random_val }}" width="100%" height="100%"/>
+        {% endif %}
+    </div>
+</div>
+<div class="col-md-2"></div>
+</div>
+{% endblock %}
