@@ -55,7 +55,5 @@ There're five tables in the database:
     ![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
   
 ### User Interface Design
+![Workflow](https://user-images.githubusercontent.com/88390268/151466702-880fe987-7fad-481b-bff9-faa108c404f8.png)
  
-![Register](https://user-images.githubusercontent.com/88390268/150656347-ae2f9698-2cae-4b28-9e22-fa66a54684b3.png)
-
-![Appearance](https://user-images.githubusercontent.com/88390268/150656403-578e3c4b-e92d-4425-8d9f-214533b71526.png)
