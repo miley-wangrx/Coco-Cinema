@@ -8,7 +8,8 @@
 ## Overview
 This is a online seat reservation system used for customer's purchasing and cinema's management. In this project, two applications were developed: one is an Android app used by customers, the other is a web app for administrators of the cinema to manage orders.
 ### Functionalities
-![functionalities](https://user-images.githubusercontent.com/88390268/150656318-1d69d43e-b10d-4204-86bc-0ef5094e284b.png)
+  ![functionalities](https://user-images.githubusercontent.com/88390268/151494367-35a3190b-ef5e-4ac1-a187-7b6844347925.png)  
+
 ### Database Design
 ![database](https://user-images.githubusercontent.com/88390268/150656293-30464d56-df9a-49a9-ab43-fe59f72f05a5.png)
 
@@ -54,6 +55,8 @@ There're five tables in the database:
  
     ![flowchart](https://user-images.githubusercontent.com/88390268/150656302-2fbe1575-3a2a-426c-976c-64938235b78c.png)
   
-### User Interface Design
-![Workflow](https://user-images.githubusercontent.com/88390268/151466702-880fe987-7fad-481b-bff9-faa108c404f8.png)
+### Screenshots of User Interface 
+ ![Workflow1](https://user-images.githubusercontent.com/88390268/151466702-880fe987-7fad-481b-bff9-faa108c404f8.png)
  
+ ![Workflow2](https://user-images.githubusercontent.com/88390268/151493901-f901fc26-511b-4e4a-bc99-0d291fcce981.png)
+
