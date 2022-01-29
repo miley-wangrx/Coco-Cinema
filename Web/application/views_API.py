@@ -24,7 +24,9 @@ from datetime import datetime
 # pip install aliyun-python-sdk-core
 
 def send_mess(phone,code):
-    client = AcsClient('LTAI4FwNJf4UEzPP2JnPi7kw', 'gU8JVd5G3RBer2bm8CEooflXR6mXbS', 'cn-hangzhou')
+    ##### key of the AliCloud account #####
+    client = AcsClient('xxxxxx', 'xxxxx', 'cn-hangzhou')
+    #######################################
     request = CommonRequest()
     request.set_accept_format('json')
     request.set_domain('dysmsapi.aliyuncs.com')
